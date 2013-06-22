@@ -1,0 +1,62 @@
+body {
+    background: #f8ffe9;
+    margin: 12px;
+    min-height: 250px;
+}
+
+header {
+    background: transparent url('images/background.jpg') no-repeat center center;
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("http://www.htmldog.com/badge1.gif");*/
+    height: 188px;
+
+    /*border: dashed 3px #eecfe5;*/
+}
+
+#titulo {
+    position: absolute;
+
+    margin: auto;
+}
+
+nav {
+    float: left;
+    margin: 10px;
+    /*border: dashed 3px #ecd1ee;;*/
+    background-color: #f8ffe4;
+    width: 150px;
+}
+
+section {
+    margin: 10px 10px 10px -200px;
+    float: right;
+    /*border: dashed 2px #a5ddee;*/
+    background-color: #fafff4;;
+    width: 100%;
+}
+
+section .wrapper {
+    padding-left: 180px;
+}
+#comentarios {
+    font-size: 1.5em;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px
+}
+
+footer {
+    float: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    border: solid 2px #eecfe5;
+    background-color: #fdeaff;
+}
+
+.interna header {
+    height: 90px;
+}
+
